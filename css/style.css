@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+@media (min-width: 280px) and (max-width: 600px) {
+  .container{
+   width: 100%;
+  }
+  .images{
+   width: 100%;
+  }
+  .three{
+    margin-top: 5px;
+  }
+  .main{
+    margin-top: 5px;
+  }
+  .three img{
+    margin-left: unset !important;
+  }
+}
+.nav-bar{
+    background-color: #222E68;
+    padding: 15px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
+.one{
+    display: flex;
+    align-items: center;
+}
+.three{
+    display: flex;
+    align-items: center;
+}
+.three img{
+margin-left:12px;
+}
+.three p{
+    color: white;
+    margin-left: 5px;
+}
+.one p{
+    color: white;
+    margin-left: 5px;
+}
+.main{
+    display: flex;
+}
+.two img{
+margin-left: 5px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .main-1{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+ flex-wrap:wrap;
+  }
+  .menu{
+    margin-top: 10px;
+    
+  }
+  .menu li {
+    float: left;
+  }
+  
+  .menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .menu .active {
+    background-color: #04AA6D;
+  }
+  @media (min-width: 280px) and (max-width: 600px) {
+    .container{
+     width: 100%;
+    }
+    .nav-bar{
+     width: 100%;
+    }
+    
+ }
+ @media (min-width: 601px) and (max-width: 780px) {
+    .container{
+     width: 100%;
+    }
+    .nav-bar{
+     width: 100%;
+    }
+    
+ }
+ @media (min-width: 280px) and (max-width: 600px) {
+    .main-1{
+     width: 100%;
+    }
+    .menu{
+     width: 100%;
+    }
+ }
+ @media (min-width: 601px) and (max-width: 780px) {
+    .main-1{
+      width: 100%;
+    }
+    .menu{
+      /* width: 100%;  */
+    }
+ }
+  .bg{
+background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.6)) , url(../image/background-image.jpg) ;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
+  .real{
+    text-align: center;
+  }
+.real p{
+    width: 930px;
+    margin: 0 auto;
+}
+.real p {
+    color: #fff;
+}
+.real h1{
+  color: #fff;
+}
+
+.real h2{
+    font-size: 35px;
+    padding-top: 100px;
+    color: #fff;
+}
+.real h1{
+    font-size: 40px;
+    padding-top: 5px;
+}
+.real p{
+    padding-top: 20px;
+}
+
+.bton{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top:30px ;
+    align-items: center;
+}
+.bton a{
+  color: white;
+  margin-left: 10px;
+}
+.bton h5{
+    color: #fff;
+}
+
+.bton button{
+    padding: 10px 20px;
+    background: #222E68;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+.real h5{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+@media (min-width: 280px) and (max-width: 600px) {
+  .real{
+    width: 100%;
+  }
+  .bg .real p {
+   width: 100%;
+  }
+}
+@media (min-width: 601px) and (max-width: 780px) {
+  .real{
+    width: 100%;
+  }
+  .bg .real p {
+   width: 100%;
+  }
+}
+.main-3{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.two-images{
+  flex-basis: 20px;
+  margin-left: 20px;
+}
+
+.bank{
+  margin-left: 40px;
+}
+.bank h1{
+  color: #222E68;
+}
+.bank h4{
+  color: #222E68;
+}
+.members{
+  display: flex;
+  margin-top: 30px;
+}
+.members p{
+ margin-top: 15px;
+}
+.member{
+  display: flex;
+  margin-top: 30px;
+}
+
+.member p{
+  margin-top: 15px;
+}
+.text h5{
+  margin-left: 15px;
+}
+.text p{
+  margin-left: 15px;
+}
+.buttn{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+.buttn button{
+  padding: 6px 10px;
+  background-color: #222E68;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.author{
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 280px) and (max-width: 600px) {
+  .main-3{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .bank {
+   width: 100%;
+   flex-wrap: wrap;
+  }
+}
+@media (min-width: 601px) and (max-width: 780px) {
+  .main-3{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .bank {
+   width: 100%;
+   flex-wrap: wrap;
+  }
+}
+.services{
+  text-align: center;
+}
+.services h2{
+  color: #222E68;
+}
