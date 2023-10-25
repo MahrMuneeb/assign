@@ -11,6 +11,12 @@
     margin: 0 auto;
     flex-wrap: wrap;
 }
+.main-11{
+  width: 1200px !important;
+  margin: 0 auto !important;
+  margin-top: 40px !important;
+  position: relative !important;
+}
 @media (min-width: 280px) and (max-width: 600px) {
   .container{
    width: 100%;
@@ -212,7 +218,9 @@ background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.6)) , url(../image/b
   flex-basis: 20px;
   margin-left: 20px;
 }
-
+.services{
+  margin-top: 20px;
+}
 .bank{
   margin-left: 40px;
 }
@@ -224,14 +232,14 @@ background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.6)) , url(../image/b
 }
 .members{
   display: flex;
-  margin-top: 30px;
+  margin-top: 50px
 }
 .members p{
  margin-top: 15px;
 }
 .member{
   display: flex;
-  margin-top: 30px;
+  margin-top: 45px;
 }
 
 .member p{
@@ -246,7 +254,7 @@ background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.6)) , url(../image/b
 .buttn{
   display: flex;
   justify-content: space-between;
-  margin-top: 75px;
+  margin-top: 45px;
 }
 .buttn button{
   padding: 6px 30px;
@@ -293,11 +301,19 @@ background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.6)) , url(../image/b
     margin-top: 70px;
 }
 .img-1 img{
-  width: 300px;
+  width: 100%;
+}
+.img-1 li{
+  color: #555;
+  font-size: 18px;
+}
+.img-1 ul{
+  margin-top: 20px;
 }
 .img-1{
-  width: 300px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  flex-basis: 30%;
+box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.10);
+padding-bottom: 20px;
 }
 .img-1 h1{
   margin-left: 16px;
@@ -309,7 +325,7 @@ background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.6)) , url(../image/b
     flex-wrap: wrap;
   }
   .img-1 {
-   width: 100%;
+   flex-basis: 100%;
    flex-wrap: wrap;
    margin-top: 30px;
   }
@@ -323,7 +339,7 @@ background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.6)) , url(../image/b
     flex-wrap: wrap;
   }
   .img-1 {
-   width: 100%;
+   flex-basis: 50%;
    flex-wrap: wrap;
    margin-top: 30px;
   }
@@ -335,7 +351,7 @@ background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.6)) , url(../image/b
   display: flex;
   width:1200px;
   margin:0 auto;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 60px;
 }
 @media (min-width: 280px) and (max-width: 600px) {
@@ -344,7 +360,7 @@ background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.6)) , url(../image/b
     flex-wrap: wrap;
   }
   .img-1 {
-   width: 100%;
+   flex-basis: 100%;
    flex-wrap: wrap;
    margin-top: 30px;
   }
@@ -358,7 +374,7 @@ background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.6)) , url(../image/b
     flex-wrap: wrap;
   }
   .img-1 {
-   width: 100%;
+   flex-wrap: 50%;
    flex-wrap: wrap;
    margin-top: 30px;
   }
@@ -404,9 +420,7 @@ background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.6)) , url(../image/b
   cursor: pointer;
   margin-top: 20px;
 }
-.owl-carousel.owl-theme img{
-  width: 80px;
-}
+
 
 
 /* sofa setion  */
@@ -415,6 +429,7 @@ background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.6)) , url(../image/b
   background-repeat: no-repeat;
   /* background-size: cover; */
   height: 350px;
+  margin-top: 40px;
 }
 .sarisfied{
   padding: 5px 30px;
@@ -447,6 +462,7 @@ background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.6)) , url(../image/b
   .back {
    width: 100%;
    flex-wrap: wrap;
+   padding-top: 10px;
   }
   .sarisfied{
     margin-top: 10px;
@@ -460,6 +476,7 @@ background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.6)) , url(../image/b
   .back {
    width: 100%;
    flex-wrap: wrap;
+   padding-top: 10px;
   }
   .sarisfied{
     margin-top: 10px;
@@ -480,52 +497,183 @@ background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.6)) , url(../image/b
   align-items: center;
   /* height: 100vh; */
 /* } */
-/* .card_container{ */
+ /* .card_container{ 
   padding-block: 5rem;
-/* } */
-/* .card_content{ */
+ }  */
+/* .card_content{ 
   margin-inline: 1.75rem;
   border-radius: 1.25rem;
   overflow: hidden;
 /* } */
 
-/* .card_artical{ */
+/* .card_artical{ 
   width: 300px;
   border-radius: 1.25rem;
   overflow: hidden;
 /* } */
 
-/* .card_image{ */
+/* .card_image{
   position: relative;
   background-color: #fff;
   padding-top: 1.5rem;
   margin-bottom: -.75rem;
 /* } */
 
-/* .card_data{ */
+/* .card_data{ 
   background-color: #fff;
   padding: 1.5rem 2rem;
   border-radius: 1rem;
   text-align: center;
   position: relative;
   z-index: 10;
-/* }  */
+} 
+/*  */
 
 
 
+.item{
+  width: 100%;
+}
+.item img{
+  width: 300px;
+}
+
+.owl-carousel .owl-item img {
+  width: 300px !important;
+}
+
+.item button{
+  padding: 10px 20px;
+  background: #222E68;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.item p{
+  margin-top: 10px;
+}
+.item h3{
+  margin-top: 10px;
+}
+
+.owl-prev{
+  position: absolute;
+  top: 141px;
+  left: -28px;
+  
+}
+.owl-next{
+  position: absolute;
+  top: 141px;
+  right: 28px;
+}
 
 
+.foter{
+  height: 400px;
+  background-repeat: no-repeat;
+background-size: cover !important;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 54.18%, rgba(0, 0, 0, 0.67) 100%) , url(../image/mid-area-images/fotter-image.png);
+}
+.compny p{
+  color: #fff;
+}
+.Quick h3{
+  color: #fff;
+}
+.Quick a{
+  text-decoration: none;
+  color: #fff;
+}
+.four{
+  display:flex;
+  align-items: center;
+}
+.four p{
+  color: #fff;
+}
 
+.container-pg{
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.thre p{
+  color: #fff;
+}
+.thre{
+  display: flex;
+  align-items: center;
+}
+.iamges-4{
+  display: block;
+}
+.main-10 h3{
+  color: #fff;
+}
+.two-main{
+  display: flex;
+}
+.Quick{
+  line-height: 25px;
+}
+.quick-1{
+  margin-top: 10px;
+}
+.four p{
+  margin-top: 18px;
+}
+.two-main{
+  margin-top: 24px;
+  line-height: 25px;
+}
+.Quick-2{
+  line-height: 25px;
+}
+.Quick-2 h3{
+  color: #fff;
+}
 
+hr{
+  width: 1200px;
+  margin: 0 auto;
+}
 
-
-
-
-
-
-
-
-
+@media (min-width: 280px) and (max-width: 600px) {
+  .foter{
+   width: 100%;
+   flex-wrap: wrap;
+   height: auto;
+  }
+  .container-pg{
+   width: 100%;
+   flex-wrap: wrap;
+  }
+  .main-10{
+    margin-top: 20px;
+  }
+  
+}
+@media (min-width: 601px) and (max-width: 780px)
+{
+  .foter{
+   width: 100%;
+   flex-wrap: wrap;
+   height: auto;
+  }
+  .container-pg{
+   width: 100%;
+   flex-wrap: wrap;
+  }
+  .main-10{
+    margin-top: 20px;
+    margin: 0 auto;
+  }
+  
+}
 
 
 
