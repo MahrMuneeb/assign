@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.nav-bar{
+    background-color: #222e64;
+    padding: 15px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+.images{
+    display: flex;
+}
+.one{
+    display: flex;
+    align-items: center;
+}
+.one p{
+    color: white;
+    margin-left: 5px;
+}
+.three{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.three p{
+    color: #fff;
+    margin-left: 5px;
+}
+.main{
+    display: flex;
+}
+.main .two{
+    margin-left: 5px;
+}
+/* main-1 */
+.main-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .menu li {
+    float: left;
+  }
+  
+  .menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .menu .active {
+    background-color: #04AA6D;
+  }
+    .us{
+        height: 475px;
+        flex-shrink: 0;
+        background-size: cover;
+        position: relative;
+        background:  url(../image/aboutus/Rectangle\ 2.png), rgba(211, 211, 211, 0.165) 0px -488.212px / 100% 226.405% no-repeat;
+    }
+    .about{
+        text-align: center;
+    }
+    .about h1{
+      color:  rgba(255, 255, 255, 1); 
+      position: absolute;
+      top: 200px;
+      left: 627px;
+    }
+    .about h4{
+       color:  rgba(255, 255, 255, 1);
+       position: absolute;
+       top: 238px;
+       left: 635px;
+    }
+    .image{
+        display: flex;
+        justify-content: center;
+        width: 1200px;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+    .text{
+        margin-left: 30px;
+    }
+    .text p{
+        margin-top: 30px;
+    }
+    .text h2{
+     color:#222e64;
+    }
+    .para{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .para-1{
+        margin-top: 20px;
+    }
+    .para-2{
+        margin-top: 20px;
+    }
+    .para-3{
+        margin-top: 30px;
+    }
+    .sofa{
+        background:url(../image/mid-area-images/sofa-image.png);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        height: 290px;
+        margin-top: 40px;
+        }
+        .sarisfied{
+        padding: 5px 30px;
+        background: white;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        }
+        .satified-cutomer{
+        margin-left: 20px;
+        }
+        .sarisfied h4{
+        font-size: 38px;
+        color: #222E68;
+        }
+        .result h3 {
+        color: white;
+        }
+        .back{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 70px;
+        }
+        .foter{
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover !important;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 54.18%, rgba(0, 0, 0, 0.67) 100%) , url(../image/mid-area-images/fotter-image.png);
+            }
+            .compny p{
+            color: #fff;
+            }
+            .Quick h3{
+            color: #fff;
+            }
+            .Quick a{
+            text-decoration: none;
+            color: #fff;
+            }
+            .four{
+            display:flex;
+            align-items: center;
+            }
+            .four p{
+            color: #fff;
+            }
+            
+            .container-pg{
+            display: flex;
+            width: 1200px;
+            justify-content: space-between;
+            margin: 0 auto;
+            padding-top: 40px;
+            }
+            .thre p{
+            color: #fff;
+            }
+            .thre{
+            display: flex;
+            align-items: center;
+            }
+            .iamges-4{
+            display: block;
+            }
+            .main-10 h3{
+            color: #fff;
+            }
+            .two-main{
+            display: flex;
+            }
+            .Quick{
+            line-height: 25px;
+            }
+            .quick-1{
+            margin-top: 10px;
+            }
+            .four p{
+            margin-top: 18px;
+            }
+            .two-main{
+            margin-top: 24px;
+            line-height: 25px;
+            }
+            .Quick-2{
+            line-height: 25px;
+            }
+            .Quick-2 h3{
+            color: #fff;
+            }
+            
+            hr{
+            width: 1200px;
+            margin: 0 auto;
+            }
+            
