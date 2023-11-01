@@ -317,7 +317,7 @@ display: flex;
   margin-top: 70px;
 }
 .img-1 img{
-width: 100%;
+width: 400px;
 }
 .img-1 li{
 color: #555;
@@ -326,13 +326,19 @@ font-size: 18px;
 .img-1 ul{
 margin-top: 20px;
 }
+.img-1 li{
+  margin-top: 7px;
+}
 .img-1{
+  width: 400px;
+  height: 500px;
 flex-basis: 30%;
 box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.10);
-padding-bottom: 20px;
+
 }
 .img-1 h1{
 margin-left: 16px;
+margin-top: 20px;
 color: #222E68;
 }
 @media (min-width: 280px) and (max-width: 600px) {
