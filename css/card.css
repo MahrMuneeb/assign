@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+.card .image-box{
+    height: 200px;
+}
+.card .image-box img{
+    height: 100%;
+}
+.card .profile-detailes p{
+    height: 40px;
+    width: 136px;
+}
