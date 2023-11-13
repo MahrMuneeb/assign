@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.nav-bar{
+    background-color: #222e64;
+    padding: 15px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+.images{
+    display: flex;
+}
+.one{
+    display: flex;
+    align-items: center;
+}
+.one p{
+    color: white;
+    margin-left: 5px;
+}
+.three{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.three p{
+    color: #fff;
+    margin-left: 5px;
+}
+.main{
+    display: flex;
+}
+.main .two{
+    margin-left: 5px;
+}
+/* main-1 */
+.main-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .menu li {
+    float: left;
+  }
+  
+  .menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .menu .active {
+    background-color: #04AA6D;
+  }
+  .us{
+    height: 475px;
+    background-size: cover;
+    position: relative;
+  background-repeat: no-repeat;
+    background:  linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.6)) , url(../image/blog-image/Rectangle\ 2.png) ;
+  }
+  .about{
+    text-align: center;
+}
+.about h1{
+  color:  rgba(255, 255, 255, 1); 
+  position: absolute;
+  top: 287px;
+  left: 624px;
+  font-size: 42px;
+  font-weight: 700;
+}
+.about h4{
+   color:  rgba(255, 255, 255, 1);
+   position: absolute;
+   line-height: 23.44px;
+    top: 354px;
+    left: 645px;
+  
+}
+.container-tg{
+    display: flex;
+    justify-content: space-between;
+    width: 1250.72px;
+    margin: 0 auto;
+}
+.table{
+    width: 388.98px;
+    height: 490.69px;
+    box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.10)
+}
+.two-para{
+    width: 335px;
+    margin: 0 auto;
+    height: 179.44px;
+    margin-top: 35px;
+}
+.big{
+font-size: 16px;
+font-weight: 400;
+line-height: 21px;
+padding-top: 13px;
+
+}
+
+.small{  
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+}
+.two-para button{
+    width: 101.2px;
+    height: 28.26px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: #222e64;
+    color: #fff;
+    margin-top: 30px;
+}

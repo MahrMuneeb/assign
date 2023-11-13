@@ -71,7 +71,7 @@
   }
     .us{
         height: 475px;
-        flex-shrink: 0;
+        
         background-size: cover;
         position: relative;
       background-repeat: no-repeat;
