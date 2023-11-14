@@ -98,13 +98,17 @@
 .container-tg{
     display: flex;
     justify-content: space-between;
-    width: 1250.72px;
-    margin: 0 auto;
+    margin-top: 60px;
 }
 .table{
     width: 388.98px;
     height: 490.69px;
     box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.10)
+}
+.table-2{
+    width: 388.98px;
+    height: 490.69px;
+    border: 0.5px solid #C8C8C8
 }
 .two-para{
     width: 335px;
@@ -135,3 +139,92 @@ line-height: 26px;
     color: #fff;
     margin-top: 30px;
 }
+.container-yg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.container-zg{
+    width: 1250.70px;
+ height: 490.69px;
+ margin: 0 auto;
+}
+.group{
+    text-align: center;
+    margin-top: 40px ;
+}
+.foter{
+    margin-top: 90px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 54.18%, rgba(0, 0, 0, 0.67) 100%) , url(../image/mid-area-images/fotter-image.png);
+    }
+    .compny p{
+    color: #fff;
+    }
+    .Quick h3{
+    color: #fff;
+    }
+    .Quick a{
+    text-decoration: none;
+    color: #fff;
+    }
+    .four{
+    display:flex;
+    align-items: center;
+    }
+    .four p{
+    color: #fff;
+    }
+    
+    .container-pg{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 40px;
+    }
+    .thre p{
+    color: #fff;
+    }
+    .thre{
+    display: flex;
+    align-items: center;
+    }
+    .iamges-4{
+    display: block;
+    }
+    .main-10 h3{
+    color: #fff;
+    }
+    .two-main{
+    display: flex;
+    }
+    .Quick{
+    line-height: 25px;
+    }
+    .quick-1{
+    margin-top: 10px;
+    }
+    .four p{
+    margin-top: 18px;
+    }
+    .two-main{
+    margin-top: 24px;
+    line-height: 25px;
+    }
+    .Quick-2{
+    line-height: 25px;
+    }
+    .Quick-2 h3{
+    color: #fff;
+    }
+    .two{
+        margin-left: 5px;
+    }
+    
+    hr{
+    width: 1200px;
+    margin: 0 auto;
+    }
