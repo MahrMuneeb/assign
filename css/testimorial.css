@@ -75,7 +75,7 @@
     background-size: cover;
     position: relative;
   background-repeat: no-repeat;
-    background:  linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url(../image/blog-details/Rectangle\ 2.png) ;
+    background:  linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.6)) , url(../image/testimorial-image/Rectangle\ 2.png) ;
 }
 .about{
     text-align: center;
@@ -83,170 +83,106 @@
 .about h1{
   color:  rgba(255, 255, 255, 1); 
   position: absolute;
-  top: 200px;
-  left: 627px;
+  top: 287px;
+    left: 610px;
 }
 .about h4{
    color:  rgba(255, 255, 255, 1);
    position: absolute;
-   top: 238px;
-   left: 635px;
+   top: 354px;
+    left: 631px;
 }
-.container-xy{
-    width: 1250.70px;
-    margin: 0 auto;
-}
-.container-pp{
+.container-cd{
     display: flex;
-    justify-content: space-between;
-    margin-top: 70px;
+    
 }
-.teext{
-    width: 762px;
-    height: 107px;
-}
-.teext p{
-font-size: 18px;
-font-weight: 400;
-line-height: 23px;
-margin-top: 15px;
-}
-.second{
-    width: 762px;
-height: 107px;
-margin-top: 66px;
-}
-.second p{ 
-font-size: 18px;
-font-weight: 400;
-line-height: 23px;
-
-}
-.teext .fiirst{
-font-size: 32px;
-font-weight: 700;
-padding-bottom: 20px;
-}
-.fom{
-    width: 335px;
-    height: 422px;
-    border: 0.5px solid #C8C8C8;
-}
-.fom form{
-    width: 309px;
-    height: 375.93px;
-}
-.name{
-    width: 309px;
-    height: 36px;
-    border-radius: 5px;
-    border: 0.5px solid #525252;
-    padding-left: 15px;
-    margin-top: 15px;
-}
-.phone{
-    width: 309px;
-    height: 36px;
-    border-radius: 5px;
-    border: 0.5px solid #525252;
-    padding-left: 15px;
-    margin-top: 18px;
-}
-.email{
-    width: 309px;
-    height: 36px;
-    border-radius: 5px;
-    border: 0.5px solid #525252;
-    padding-left: 15px;
-    margin-top: 18px;
-}
-textarea{
-    height: 122px;
-    width: 309px;
-    border: 0.5px solid #525252;
-    padding-left: 15px;
-    margin-top: 18px;
-}
-form h1{
-    color: #222e64;
-    margin-top: 13px;
-}
-form{
+.container-ab{
+    width: 1200px;
     margin: 0 auto;
 }
-form button{
-    width: 309px;
-    height: 36px;
-    border-radius: 5px;
-    border: none;
-    background: #222e64;
-    color: #fff;
-    margin-top: 18px;
+.monial{
+    text-align: center;
+    margin-top: 50px;
 }
-.imge-main{
-    width: 1250.70px;
-    margin: 0 auto;
-}
-.imge{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 80px;
-}
-.back{
-    margin-top: 25px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 54.18%, rgba(0, 0, 0, 0.67) 100%) , url(../image/blog-details/Rectangle\ 78.png);
-    width: 355px;
-height: 335.84px;
-border-radius: 10px;
-opacity: 0.8px;
-position: relative;
-}
-.pp{
-    position: absolute;
-    top: 213px;
-    left: 37.5px;
-}
-.head{
-    line-height: 28px;
-    font-size: 24px;
-    font-weight: 700;
-    color: #fff;
-}
-.low{
-    line-height: 24px;
-    margin-top: 6px;
-    color: #fff;
-}
-.low-1{
-    line-height: 24px;
-    color: #fff;
-}
-.dollar{
-    width: 762px;
-}
-.dollar .Hola{
-    font-size: 36px;
-    font-weight: 700;
-}
-.hii{
+.one-moinal p{
     font-size: 18px;
     font-weight: 400;
     line-height: 23.44px;
-    color: #8A8A8A;
+}
+.two-monial{
+margin-top: 15px;
+}
+.two-monial p{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46.87px;
+  
+}
+.blue{
+    width: 416px;
+    height: 390px;
+    background: #222e64;
+    position:relative;
+    margin-left: 7px;
+}
+.crd{
+    width: 357px;
+    height: 282px;
+    position: absolute;
+    left: 30px;
+    top: 65px;
+}
+.dolor{
+    margin-top: 13px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.55px;
+    color: #fff;
+}
+.sit{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.83px;
+    margin-top: 10px;
+    color: #fff;
+}
+.ellips{
+    display: flex;
+    align-items: center;
+    margin-top: 15px; 
+    color: #fff;
+}
+.ellips-p{
+    margin-left: 30px;
+}
+.Ayman{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff; 
+}
+.CEO{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 9px;
+    color: #fff;
+}
+.container-ef{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container-gh{
+    display: flex;
     margin-top: 20px;
 }
-
-.dollar{
-   margin-top: 40px;
-   margin-left: 47px;
+.last{
+    text-align: center;
+    margin-top: 30px;
 }
 .foter{
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover !important;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 54.18%, rgba(0, 0, 0, 0.67) 100%) , url(../image/mid-area-images/fotter-image.png);
-    margin-top:20px;
-
     }
     .compny p{
     color: #fff;
